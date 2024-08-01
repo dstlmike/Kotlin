@@ -1,0 +1,34 @@
+{
+    "title": "Item",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "isComplete": {
+            "bsonType": "bool"
+        },
+        "message": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "owner_name": {
+            "bsonType": "string"
+        },
+        "priority": {
+            "bsonType": "long"
+        }
+    },
+    "required": [
+        "_id",
+        "isComplete",
+        "message",
+        "name",
+        "owner_id",
+        "priority"
+    ]
+}
